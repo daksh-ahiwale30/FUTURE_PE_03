@@ -1,0 +1,30 @@
+[ Start ]
+    |
+    v
+[ User opens TripMate ]
+    |
+    v
+[ TripMate shows welcome message ]
+    |
+    v
+[ User enters place name ]
+    |
+    v
+[ Check: Is place valid? ]
+        |
+        |---- No ----> [ Show error message ]
+        |              "Invalid place. Please enter a valid city."
+        |                    |
+        |                    v
+        |                [ End / Retry ]
+        |
+        |---- Yes ----> [ Fetch best places for that city ]
+                            |
+                            v
+                   [ Display top places to visit ]
+                            |
+                            v
+                    [ Ask for another place OR End ]
+                            |
+                            v
+                          [ End ]
