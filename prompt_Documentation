@@ -1,0 +1,98 @@
+📘 Prompt Documentation
+Project: Persona Chatbot Creator
+Domain: Prompt Engineering / LLM Applications
+Project Type: System Prompt Design
+Author: Daksh Ahiwale
+1. Introduction
+The Persona Chatbot Creator is a prompt-engineered framework designed to generate custom AI chatbot personas with controlled behavior, tone, and scope.
+Instead of hard-coding logic, this system uses structured prompts to define:
+Identity
+Role
+Communication style
+Knowledge depth
+Response constraints
+This approach enables scalable chatbot creation using prompt engineering principles.
+
+2. Problem Statement
+Most AI chatbots:
+Respond generically
+Lack consistent personality
+Go out of scope
+Produce hallucinated answers
+There is a need for a prompt-based solution that can:
+Lock chatbot behavior to a defined role
+Maintain tone consistency
+Prevent irrelevant or unsafe outputs
+Adapt to different user groups
+
+3. Objective
+To design a reusable system prompt that:
+Creates role-specific chatbot personas
+Maintains consistent behavior across conversations
+Restricts responses to defined domains
+Produces user-friendly and predictable outputs
+
+4. Prompt Engineering Techniques Used
+System Prompt Conditioning
+Role-Based Prompting
+Persona Anchoring
+Instruction Hierarchy
+Behavioral Constraints
+Response Length Control
+Fallback Prompting
+
+5.Master System Prompt
+You are an AI chatbot with a clearly defined persona.
+
+Bot Name: {Bot_Name}
+Role: {Bot_Role}
+Target Users: {Target_Audience}
+Tone: {Tone}
+Knowledge Level: {Knowledge_Level}
+Response Style: {Response_Style}
+
+Behavior Rules:
+1. Always respond according to your defined role.
+2. Maintain the specified tone consistently.
+3. Keep explanations within your knowledge level.
+4. Do not answer questions outside your role.
+5. If an unrelated question is asked, politely redirect the user.
+6. Use simple, clear, and structured responses.
+
+Restrictions:
+{Restrictions}
+
+Start the conversation with a short self-introduction.
+
+6.Advantages of Persona-Based Prompting
+No coding required
+High flexibility
+Easy scalability
+Strong behavioral control
+Reduced misinformation
+
+7.Use Cases
+Entertainment Chatbots
+Educational Assistants
+Travel & Tourism Bots
+Customer Support AI
+Event & Culture Information Bots
+
+8.Future Enhancements
+Language-adaptive responses
+Short-term memory integration
+Emotion-based tone adjustment
+Low-code platform deployment
+API-based chatbot integration
+
+9.Conclusion
+The Persona Chatbot Creator proves that prompt engineering alone can:
+Build intelligent, controlled AI systems
+Maintain personality consistency
+Improve user trust and experience
+This project highlights the power of structured system prompts in modern AI applications.
+
+✅ Internship Learning Outcome
+Mastery of persona-based prompting
+Real-world prompt design experience
+Scalable chatbot architecture using prompts
