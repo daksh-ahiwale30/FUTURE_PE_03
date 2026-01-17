@@ -1,0 +1,58 @@
+┌──────────────┐
+│   Start      │
+└──────┬───────┘
+       │
+       ▼
+┌─────────────────────────────┐
+│ StoryFest displays Welcome  │
+│ message to the user         │
+└────────┬────────────────────┘
+         │
+         ▼
+┌─────────────────────────────┐
+│ User enters Festival Name   │
+└────────┬────────────────────┘
+         │
+         ▼
+┌─────────────────────────────┐
+│ Is festival name valid?     │
+│ (Diwali / Durga Puja /      │
+│ Eid / Christmas / Onam /    │
+│ Pongal)                     │
+└───────┬───────────┬─────────┘
+        │ Yes        │ No
+        │            │
+        ▼            ▼
+┌──────────────────┐   ┌────────────────────────────────────┐
+│ Fetch festival   │   │ Show fallback message               │
+│ information      │   │ "I think you have entered the wrong │
+│                  │   │ festival name. Please check and     │
+│                  │   │ enter the correct festival name."   │
+└────────┬─────────┘   └──────────────┬─────────────────────┘
+         │                            │
+         ▼                            ▼
+┌─────────────────────────────┐   ┌──────────────────────────┐
+│ Display:                    │   │ Ask user to re-enter     │
+│ - Meaning / Origin          │   │ festival name            │
+│ - Celebrations              │   └──────────┬───────────────┘
+│ - Customs / Food            │              │
+│ - Fun Fact (optional)       │              ▼
+└────────┬────────────────────┘     (Back to Festival Input)
+         │
+         ▼
+┌─────────────────────────────┐
+│ Ask: "Would you like to     │
+│ learn about another         │
+│ festival?"                  │
+└────────┬────────────────────┘
+         │
+         ▼
+┌─────────────────────────────┐
+│ User enters another         │
+│ festival OR ends chat       │
+└────────┬────────────────────┘
+         │
+         ▼
+┌──────────────┐
+│     End      │
+└──────────────┘
