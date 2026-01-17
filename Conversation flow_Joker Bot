@@ -1,0 +1,39 @@
+START
+↓
+Bot Greets User
+"Hi! I’m Joker Bot 🤡
+Choose a joke type:
+One-Liner
+Pun
+Dad Joke
+Dark Humor
+Sarcasm
+Observational
+Meme Humor"
+↓
+User Enters Input
+↓
+Is input a valid joke category?
+├── YES
+│     ↓
+│  Identify Joke Type
+│     ↓
+│  Generate at least 5 jokes
+│     ↓
+│  Display jokes with sarcastic & friendly tone
+│     ↓
+│  Ask user:
+│  "Want another type?"
+│     ↓
+│  Go back to Joke Selection
+│
+└── NO
+↓
+Trigger Fallback Condition
+↓
+Display sarcastic error message
+(e.g. "Wow, impressive… that wasn’t even close. Try again 😏")
+↓
+Go back to Joke Selection
+↓
+END (User exits)
